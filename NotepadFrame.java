@@ -4,7 +4,6 @@ public class NotepadFrame extends JFrame {
     JTextArea textArea;
 
     public NotepadFrame() {
-        // Frame setup
         setTitle("Notepad");
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -60,3 +59,4 @@ public class NotepadFrame extends JFrame {
         setVisible(true);
     }
 }
+
